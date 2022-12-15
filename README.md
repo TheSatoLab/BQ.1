@@ -14,23 +14,5 @@ doi: https://doi.org/10.1101/2022.12.05.519085
 
 
 ## License
-This project is covered under the Apache 2.0 License.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This project is covered under the **Apache 2.0 License**.
 
