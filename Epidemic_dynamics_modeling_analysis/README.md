@@ -26,11 +26,11 @@ $$ F_l=exp\left(\gamma f_l\right) $$
 Parameter estimation was performed via the MCMC approach implemented in CmdStan v2.30.1 (https://mc-stan.org) with CmdStanr v0.5.3 (https://mc-stan.org/cmdstanr/). Four independent MCMC chains were run with 500 and 2,000 steps in the warmup and sampling iterations, respectively. We confirmed that all estimated parameters showed <1.01 R-hat convergence diagnostic values and >200 effective sampling size values, indicating that the MCMC runs were successfully convergent.
 
 ## Contents:
-* **input\_lineage\_frequency.txt: **: A count matrix where the row is day and the column is viral lineage (e.g., S haplotype)
-* **input\_profile\_of\_S\_substitutions.txt: **: A matrix where the row is viral lineage (e.g., S haplotype) and the column is substitution
+* **input/lineage\_frequency.txt:** A count matrix where the row is day and the column is viral lineage (e.g., S haplotype)
+* **input/S\_substitution\_profile.txt:** A matrix where the row is viral lineage (e.g., S haplotype) and the column is substitution
+* **script/multinomial\_mut\_regression.stan:** The Bayesian hierarchal model, implemented in Stan
+* **script/multinomial\_mut\_regression.R:** An R code to run the stan model file
 
-
-
-
-
+* **output/mutation_effect.txt:** Estimated effect of each mutation on Re
+* **"output/S_haplotype_Re.txt:** Estimated Re of each S haplotype
 
