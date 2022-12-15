@@ -5,10 +5,14 @@ Motivated by the model established by Obermeyer et al, we developed a method to 
 
 We constructed a Bayesian hierarchal model, which represents the epidemic dynamics of each S haplotype according to growth rate parameters for each S haplotype, which is represented by a linear combination of the effect of S substitutions. Arrays in the model index over one or more indices: L = 254 viral lineages (i.e., S haplotypes) l; S = 107 substitutions/substitution clusters s; and T = 229 days t. The model is:
 
-$$ \sigma_1\sim Student\_t^+\left(5,0,10\right) $$
-$$ f_m\sim Laplace\left(0,10\right) $$
+$$ \sigma_1\sim Student\_t^+(5,0,10) $$
+
+$$ f_m \sim Laplace(0,10) $$
+
 $$ \beta_l\sim Student\_t\left(5,\sum_{m}{f_mX_{lm}},\sigma_1\right) $$
+
 $$ y_{.t}\sim Multinomial\left(\sum_{l} y_{lt},softmax\left(\alpha.+\beta_.t\right)\right) $$
+
 $$$$
 
 
