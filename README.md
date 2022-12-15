@@ -7,6 +7,9 @@ In late 2022, although the SARS-CoV-2 Omicron subvariants have highly diversifie
 ## Contents
 * **Phylogenetic analysis:** a directory containing computational codes for phylogenetic analysis
 * **Epidemic dynamics modeling analysis:** a directory containing computational codes for epidemic dynamics modeling analysis
+* **resequencing_viral_genome:** a directory containing raw data (fastq files) for resequencing viral stock
+
+
 
 ## System requirements
 We confirmed that the computational codes run in the following system.
