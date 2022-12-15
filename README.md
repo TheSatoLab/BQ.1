@@ -8,6 +8,14 @@ In late 2022, although the SARS-CoV-2 Omicron subvariants have highly diversifie
 * **Phylogenetic analysis:** a directory containing computational codes for phylogenetic analysis
 * **Epidemic dynamics modeling analysis:** a directory containing computational codes for epidemic dynamics modeling analysis
 
+## System requirements
+We confirmed that the computational codes run in the following system.
+* Ubuntu 20.04.4 LTS
+* R v4.1.2
+* CmdStan v2.30.1
+* CmdStanr v0.5.3
+
+
 ## Citation
 Ito et al., **Convergent evolution of the SARS-CoV-2 Omicron subvariants leading to the emergence of BQ.1.1 variant** 2022 **bioRxiv**
 doi: https://doi.org/10.1101/2022.12.05.519085
