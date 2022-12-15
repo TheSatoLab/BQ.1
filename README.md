@@ -15,6 +15,7 @@ We confirmed that the computational codes run in the following system.
 * CmdStan v2.30.1
 * CmdStanr v0.5.3
 
+System requirements specific to each script are denoted in the README in the corresponding subdirectory.
 
 ## Citation
 Ito et al., **Convergent evolution of the SARS-CoV-2 Omicron subvariants leading to the emergence of BQ.1.1 variant** 2022 **bioRxiv**
