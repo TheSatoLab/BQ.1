@@ -32,5 +32,5 @@ Parameter estimation was performed via the MCMC approach implemented in CmdStan 
 * **script/multinomial\_mut\_regression.R:** An R code to run the stan model file
 
 * **output/mutation_effect.txt:** Estimated effect of each mutation on Re
-* **"output/S_haplotype_Re.txt:** Estimated Re of each S haplotype
+* **output/S_haplotype_Re.txt:** Estimated Re of each S haplotype
 
