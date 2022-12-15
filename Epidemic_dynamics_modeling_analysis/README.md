@@ -20,7 +20,9 @@ The relative Re of each viral lineage, $r_l$, was calculated according to the sl
 $$ r_l=exp\left(\gamma\beta_l\right) $$
 
 where $\gamma$ is the average viral generation time (2.1 days) (http://sonorouschocolate.com/covid19/index.php?title=Estimating_Generation_Time_Of_Omicron). Similarly, the effect size of substitution m on the relative Re, $F_l$, was calculated according to the coefficient $f_l$ as:
+
 $$ F_l=exp\left(\gamma f_l\right) $$
+
 Parameter estimation was performed via the MCMC approach implemented in CmdStan v2.30.1 (https://mc-stan.org) with CmdStanr v0.5.3 (https://mc-stan.org/cmdstanr/). Four independent MCMC chains were run with 500 and 2,000 steps in the warmup and sampling iterations, respectively. We confirmed that all estimated parameters showed <1.01 R-hat convergence diagnostic values and >200 effective sampling size values, indicating that the MCMC runs were successfully convergent.
 
 
