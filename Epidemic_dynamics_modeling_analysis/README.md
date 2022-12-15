@@ -1,7 +1,7 @@
 # Epidemic dynamics modeling analysis
 
 ## Summary
-Motivated by the model established by Obermeyer et al, we developed a method to model the relationship between viral epidemic dynamics and S substitutions. This model can simultaneously estimate i) the effect of each S substitution on Re and ii) the relative Re of a viral group represented by each S haplotype. The key concept of the model used in this study is the same as the one in Obermeyer et al. However, our method is independent of the predefined viral classification such as PANGO lineage but based on the viral classification according to the profile of S substitutions. Therefore, our method can link the effect of S substitutions to viral epidemic dynamics in a more direct manner. Also, in our method, a Markov Chain Monte Carlo (MCMC) method is used for parameter estimation instead of variational inference, an approximation method.
+Motivated by the model established by Obermeyer et al, we developed a method to model the relationship between viral epidemic dynamics and S substitutions. This model can simultaneously estimate i) the effect of each S substitution on effective reproduction number (Re) and ii) the relative Re of a viral group represented by each S haplotype. The key concept of the model used in this study is the same as the one in Obermeyer et al. However, our method is independent of the predefined viral classification such as PANGO lineage but based on the viral classification according to the profile of S substitutions. Therefore, our method can link the effect of S substitutions to viral epidemic dynamics in a more direct manner. Also, in our method, a Markov Chain Monte Carlo (MCMC) method is used for parameter estimation instead of variational inference, an approximation method.
 
 We constructed a Bayesian hierarchal model, which represents the epidemic dynamics of each S haplotype according to growth rate parameters for each S haplotype, which is represented by a linear combination of the effect of S substitutions. Arrays in the model index over one or more indices: L = 254 viral lineages (i.e., S haplotypes) l; S = 107 substitutions/substitution clusters s; and T = 229 days t. The model is:
 
@@ -33,4 +33,14 @@ Parameter estimation was performed via the MCMC approach implemented in CmdStan 
 
 * **output/mutation_effect.txt:** Estimated effect of each mutation on Re
 * **output/S_haplotype_Re.txt:** Estimated Re of each S haplotype
+
+## Usage:
+R --vanilla --slave < script/multinomial_mut_regression.R
+
+## System requirements (R libraries)
+* **tidyverse** 1.3.1
+* **cmdstanr** 0.5.3
+
+
+
 
