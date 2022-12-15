@@ -9,9 +9,9 @@ $$ \sigma_1\sim Student\_t^+(5,0,10) $$
 
 $$ f_m \sim Laplace(0,10) $$
 
-$$ \beta_l\sim Student\_t\left(5,\sum_{m}{f_mX_{lm}},\sigma_1\right) $$
+$$ \beta_l\sim Student\_t\ (5,\sum_{m}{f_mX_{lm}},\sigma_1) $$
 
-$$ y_{.t}\sim Multinomial\left(\sum_{l} y_{lt},softmax\left(\alpha.+\beta_.t\right)\right) $$
+$$ y_{.t}\sim Multinomial(\sum_{l} y_{lt},softmax(\alpha.+\beta_.t)) $$
 
 $$$$
 
