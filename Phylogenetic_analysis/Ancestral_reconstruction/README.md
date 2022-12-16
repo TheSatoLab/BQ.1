@@ -4,7 +4,7 @@
 To infer the branches where substitution events occurred at the five convergent sites (346, 444, 452, 460, 486) in the trees of Omicron lineages, we reconstructed the ancestral state of the substitution profile at the convergent sites in each node using a parsimony method, implemented by the castor package (https://www.rdocumentation.org/packages/castor/versions/1.7.2). Internal nodes with substitution probabilities above or equal to 0.5 were annotated as having the substitution. Branches where substitutions took place for each site were denoted as branches connecting an ancestral internal node with no substitution to an internal node that has a substitution. Additionally, 70% of tips descending from that internal node were also required to have the substitution and at least 3 tips needed to be descended from the node, to avoid picking up branches with low support or clades that reverted back to the original residue.
 
 ## Note
-GISAID Metadata downloaded from the sction "Download packages" is needed as an input.
+Please download the GISAID Metadata from the sction "Download packages" (https://gisaid.org/) and save it in this directory.
 
 ## Usage
 ```bash
