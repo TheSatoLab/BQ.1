@@ -26,3 +26,17 @@ R --vanilla --slave --args \
   < script/predict_viral_fitness_evolution.R
 
 ```
+
+## System requirements
+* **R** v4.1.2
+* **tidyverse** v1.3.1
+* **data.table** v1.14.2
+* **ggplot2** v3.3.6
+* **ape** v5.6.2
+* **ggtree**  v3.2.1
+* **castor** v1.7.2
+* **phangorn** v2.9.0
+* **patchwork** v1.1.1
+* **RColorBrewer** v1.1.3
+* **ggnewscale** v0.4.7
+* **scales** v1.2.0
