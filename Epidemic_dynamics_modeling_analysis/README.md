@@ -35,11 +35,17 @@ Parameter estimation was performed via the MCMC approach implemented in CmdStan 
 * **output/S_haplotype_Re.txt:** Estimated Re of each S haplotype
 
 ## Usage:
+```bash
+cd "THIS_DIRECTORY"
 R --vanilla --slave < script/multinomial_mut_regression.R
+```
 
-## System requirements (R libraries)
-* **tidyverse** 1.3.1
-* **cmdstanr** 0.5.3
+## System requirements
+* **Ubuntu** 20.04.4 LTS
+* **R** v4.1.2
+* **CmdStan** v2.30.1
+* **tidyverse (R library)** v1.3.1
+* **cmdstanr (R library)** v0.5.3
 
 
 

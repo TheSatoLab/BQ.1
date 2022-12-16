@@ -12,11 +12,11 @@ In late 2022, although the SARS-CoV-2 Omicron subvariants have highly diversifie
 
 
 ## System requirements
-We confirmed that the computational codes run in the following system.
-* Ubuntu 20.04.4 LTS
-* R v4.1.2
-* CmdStan v2.30.1
-* CmdStanr v0.5.3
+* **Ubuntu** 20.04.4 LTS
+* **R** v4.1.2
+* **Python** v3.8.10
+* **CmdStan** v2.30.1
+* **CmdStanr (R library)** v0.5.3
 
 System requirements specific to each script are denoted in the README in the corresponding subdirectory.
 
