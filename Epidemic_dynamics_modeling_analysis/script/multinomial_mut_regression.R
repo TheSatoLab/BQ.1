@@ -1,11 +1,7 @@
 #!/usr/bin/env R
 
 library(tidyverse)
-library(data.table)
 library(cmdstanr)
-library(ggplot2)
-library(patchwork)
-library(RColorBrewer)
 
 
 #parameters
