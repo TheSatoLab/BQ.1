@@ -1,4 +1,4 @@
-# Inferring branches where substitution events occurred
+# Sequence dataset filtering 
 
 ## Summary
 To remove redundant sequences and reduce the volume of data for each tree reconstruction, a representative subsampling approach was used.
